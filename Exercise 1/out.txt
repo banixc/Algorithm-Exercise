@@ -1,0 +1,18 @@
+PreOrderInput:	ABCDE
+InOrderInput:	EDCBA
+PreOrder: 	ABCDE
+InOrder: 	EDCBA
+PostOrder: 	EDCBA
+
+PreOrderInput:	ABDECFG
+InOrderInput:	DBEAFCG
+PreOrder: 	ABDECFG
+InOrder: 	DBEAFCG
+PostOrder: 	DEBFGCA
+
+PreOrderInput:	ABDGEMCFN
+InOrderInput:	DGBMEAFNC
+PreOrder: 	ABDGEMCFN
+InOrder: 	DGBMEAFNC
+PostOrder: 	GDMEBNFCA
+
