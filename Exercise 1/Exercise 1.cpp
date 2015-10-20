@@ -68,6 +68,20 @@ void print(BTnode<Type> n, int type)
 
 }
 
+template<class Type>
+void destroy(BTnode<Type> *n)
+{
+	if(n == NULL)
+		return;
+	destroy(n->left);
+	destroy(n->right);
+	delete n;
+	n = NULL;
+	return;
+
+}
+
+
 
 BTnode<string>* stringToNode(string a, string b)
 {
@@ -116,20 +130,23 @@ int main()
 
 		cout << "PreOrderInput:\t" << a << endl << "InOrderInput:\t" << b << endl;
 
-		BTnode<string> t = *stringToNode(a, b);
+		BTnode<string> *t;
+		t= stringToNode(a, b);
 
 		cout << "PreOrder: \t";
 
-		print(t, 1);
+		print(*t, 1);
 		cout << endl;
 
 		cout << "InOrder: \t";
-		print(t, 0);
+		print(*t, 0);
 		cout << endl;
 
 		cout << "PostOrder: \t";
-		print(t, 2);
+		print(*t, 2);
 		cout << endl << endl;
+
+		//destroy(t);
 	}
 	return 0;
 }
