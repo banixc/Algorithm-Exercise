@@ -68,21 +68,6 @@ void print(BTnode<Type> n, int type)
 
 }
 
-template<class Type>
-void destroy(BTnode<Type> *n)
-{
-	if(n == NULL)
-		return;
-	destroy(n->left);
-	destroy(n->right);
-	delete n;
-	n = NULL;
-	return;
-
-}
-
-
-
 BTnode<string>* stringToNode(string a, string b)
 {
 	if (a.length() == 0)									//传入无字符参数时直接返回NULL
@@ -146,7 +131,6 @@ int main()
 		print(*t, 2);
 		cout << endl << endl;
 
-		//destroy(t);
 	}
 	return 0;
 }
