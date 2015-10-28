@@ -9,14 +9,17 @@
 ### 使用说明
 将二叉树的前序遍历和中序遍历分别输入到"in.txt"中
 每个遍历一行
+
 	ABCDE
 	EDCBA
 	ABDECFG
 	DBEAFCG
 	ABDGEMCFN
 	DGBMEAFNC
+	
 可连续输入多行
 然后运行程序得到的结果输出在"out.txt"
+
 	PreOrderInput:	ABCDE
 	InOrderInput:	EDCBA
 	PreOrder: 	ABCDE
