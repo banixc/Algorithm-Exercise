@@ -7,7 +7,7 @@
 要求: 构造该二叉树
 
 ### 使用说明
-将二叉树的前序遍历和中序遍历分别输入到"in.txt"中
+将二叉树的前序遍历和中序遍历分别输入到"[in.txt](https://github.com/pal6exe/Algorithm-Exercise/blob/master/Exercise%201/in.txt)"中
 每个遍历一行
 
 	ABCDE
@@ -18,7 +18,7 @@
 	DGBMEAFNC
 	
 可连续输入多行
-然后运行程序得到的结果输出在"out.txt"
+然后运行程序得到的结果输出在"[out.txt](https://github.com/pal6exe/Algorithm-Exercise/blob/master/Exercise%201/out.txt)"
 
 	PreOrderInput:	ABCDE
 	InOrderInput:	EDCBA
