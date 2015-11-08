@@ -25,8 +25,10 @@
     KJL
     LABCDEFGHIJK
     
-其图如下 ![范例图](https://github.com/pal6exe/Algorithm-Exercise/raw/master/Exercise%203/G.png)
-会在"[out.txt](https://github.com/pal6exe/Algorithm-Exercise/blob/master/Exercise%203/out.txt)"中依次输出该图的邻接表，按度从大到小的顺序排列的节点，和最小子划分：
+其图如下:
+![范例图](https://github.com/pal6exe/Algorithm-Exercise/raw/master/Exercise%203/G.png)
+
+然后会在"[out.txt](https://github.com/pal6exe/Algorithm-Exercise/blob/master/Exercise%203/out.txt)"中依次输出该图的邻接表，按度从大到小的顺序排列的节点，最小子划分：
       
     您输入的图的节点邻接关系如下：
     A => B I H L 

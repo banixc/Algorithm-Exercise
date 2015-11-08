@@ -160,7 +160,7 @@ int main()
 
 	//输出划分集合
 
-	cout << "划分集合" << endl;
+	cout << "划分集合：" << endl;
 
 
 	for (vector<vector<string>*>::iterator iter = collection->begin(); iter != collection->end(); iter++)
