@@ -9,7 +9,11 @@
 ### 思路
 先将所有节点及其邻接表存入MAP中，后生成按照节点度大小排列的向量列表，每次遍历该列表前生成新子集，遍历时，判断每个元素是否能加入到当前子集中。若能则加入，并从列表中删除该节点，直到列表为空。
 ### 使用说明
+<<<<<<< HEAD
 无向图的每个节点及其相连的节点输入到"[in.txt](https://github.com/pal6exe/Algorithm-Exercise/blob/master/Exercise%203/in.txt)"中
+=======
+无向图的每个节点及其相连的节点输入到"in.txt"中
+>>>>>>> del
 每个节点一行
 
     ABIHL
@@ -25,11 +29,16 @@
     KJL
     LABCDEFGHIJK
     
+<<<<<<< HEAD
 ![范例图](https://github.com/pal6exe/Algorithm-Exercise/raw/master/Exercise%203/G.png)
 
 如上图↑
 
 然后会在"[out.txt](https://github.com/pal6exe/Algorithm-Exercise/blob/master/Exercise%203/out.txt)"中依次输出该图的邻接表，按度从大到小的顺序排列的节点，最小子划分：
+=======
+其图如下 ![范例图](https://github.com/banixc/Algorithm-Exercise/raw/master/Exercise%203/G.png)
+会在"out.txt"中依次输出该图的邻接表，按度从大到小的顺序排列的节点，和最小子划分：
+>>>>>>> del
       
     您输入的图的节点邻接关系如下：
     A => B I H L 
