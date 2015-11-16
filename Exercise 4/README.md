@@ -1,5 +1,5 @@
 #Algorithm-Exercise
-[GitHub](https://github.com/banixc/Algorithm-Exercise) [GitCafe](https://gitcafe.com/banixc/Algorithm-Exercise) [Coding](https://coding.net/u/banixc/p/Algorithm-Exercise/git)
+[GitHub](https://github.com/banixc/Algorithm-Exercise) [Coding](https://coding.net/u/banixc/p/Algorithm-Exercise/git)
 提供[在线编译器](http://ideone.com)
 
 ## 算法分析与设计作业 实验4
