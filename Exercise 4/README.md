@@ -1,4 +1,6 @@
 #Algorithm-Exercise
+[GitHub](https://github.com/banixc/Algorithm-Exercise) [GitCafe](https://gitcafe.com/banixc/Algorithm-Exercise) [Coding](https://coding.net/u/banixc/p/Algorithm-Exercise/git)
+提供[在线编译器](http://ideone.com)
 
 ## 算法分析与设计作业 实验4
 
@@ -15,6 +17,7 @@
 接着输入无向图的每个节点。
 每个节点一行。
 下面的输出样例图跟实验3基本相同
+
     5
     ABIHL
     BAHFDCL
